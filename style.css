@@ -1,0 +1,136 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+/* variables */
+:root {
+  --yellow: #ffd966;
+  --blue: #2b79e4;
+  --green: #93c47d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Balsamiq Sans", sans-serif;
+}
+
+/* utility classes */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-start {
+  align-self: flex-start;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.gap-sm {
+  gap: 1.5rem;
+}
+
+.gap-lg {
+  gap: 3rem;
+}
+
+.mb-sm {
+  margin-bottom: 0.5rem;
+}
+
+.mb-lg {
+  margin-bottom: 1.5rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.text-white {
+  color: white;
+}
+
+.border {
+  border: 3px solid black;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  box-shadow: 3px 3px black;
+  font-size: 1.25rem;
+  font-family: inherit;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.bg-yellow {
+  background-color: var(--yellow);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+/* header styles */
+header {
+  background-color: #ccc;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.brand {
+  font-size: 2.5rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  font-family: inherit;
+}
+
+/* card styles */
+.card {
+  padding: 1rem;
+}
+
+.term {
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 2.25rem;
+}
+
+.card a {
+  color: #2b79e4;
+}
+
+.card p {
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.5rem;
+}
